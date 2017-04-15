@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mindfu.javaprojects.com.soundbox.MainActivity">
+
+    <ImageView
+        android:id="@+id/artistImage"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/artistName"
+        android:text="@string/artist_name"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/artistImage"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/prevButton"
+            android:padding="5dp"
+            android:background="@android:drawable/ic_media_previous"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:padding="5dp"
+            android:background="@android:drawable/ic_media_play"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:padding="5dp"
+            android:background="@android:drawable/ic_media_next"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

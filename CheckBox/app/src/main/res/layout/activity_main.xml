@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="showmethebio.javaprojects.com.checkbox.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you have these pets?"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="72dp"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dog_title"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/checkBoxFish"
+        android:layout_alignStart="@+id/checkBoxFish" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_title"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="179dp"
+        android:layout_below="@+id/checkBoxFish"
+        android:layout_alignRight="@+id/checkBoxFish"
+        android:layout_alignEnd="@+id/checkBoxFish"
+        android:layout_marginTop="13dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fish_title"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="223dp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/checkBoxDog"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/showButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="296dp"
+        android:layout_below="@+id/checkBoxCat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/showTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxx"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteY="366dp"
+        tools:layout_editor_absoluteX="173dp"
+        android:layout_below="@+id/showButtonId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
+
+
+</RelativeLayout>

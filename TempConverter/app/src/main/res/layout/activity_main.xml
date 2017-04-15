@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tempconverter.javaprojects.com.tempconverter.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:text="@string/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textViewId"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="@string/temp_hint_text"
+        android:ems="10"
+        android:id="@+id/editTextId"
+        android:layout_below="@+id/textViewId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:text="@string/f_button_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fButtonId"
+        android:layout_alignBaseline="@+id/cButtonId"
+        android:layout_alignBottom="@+id/cButtonId"
+        android:layout_alignRight="@+id/editTextId"
+        android:layout_alignEnd="@+id/editTextId" />
+
+    <Button
+        android:text="@string/c_button_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cButtonId"
+        android:layout_marginTop="135dp"
+        android:layout_below="@+id/editTextId"
+        android:layout_alignLeft="@+id/editTextId"
+        android:layout_alignStart="@+id/editTextId" />
+
+    <TextView
+        android:text=""
+        android:textSize="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fButtonId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/showResultTextView"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+</RelativeLayout>

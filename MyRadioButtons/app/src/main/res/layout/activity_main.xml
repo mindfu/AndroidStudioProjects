@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="showmethebio.javaprojects.com.myradiobuttons.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/title_name"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_marginTop="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radioButtonYes"
+            android:text="@string/positive_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNo"
+            android:text="@string/negative_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMaybe"
+            android:text="@string/maybe_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/showChoiceBtn"
+        android:text="@string/button_title"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/showTextView"
+        android:layout_below="@+id/showChoiceBtn"
+        android:layout_marginTop="30dp"
+        android:textSize="23sp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

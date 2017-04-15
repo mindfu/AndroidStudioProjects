@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="showmethebio.javaprojects.com.showmethebio.MainActivity"
+    android:background="@android:color/holo_blue_dark">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bach_profile"
+        android:layout_marginBottom="47dp"
+        android:id="@+id/bach_image"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/mozart_image"
+        android:layout_alignStart="@+id/mozart_image" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/mozart_profile"
+        android:id="@+id/mozart_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <TextView
+        android:text="Mozart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mozart_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/mozart_name"
+        tools:text="Mozart"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Bach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/bach_name"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

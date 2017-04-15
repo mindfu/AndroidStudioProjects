@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyEditText</string>
+    <string name="hint_text">Enter your name</string>
+    <string name="show_name">Show name</string>
+</resources>

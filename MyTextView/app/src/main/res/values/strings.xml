@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyTextView</string>
+    <string name="mytext">Android Button</string>
+</resources>

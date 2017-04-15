@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShowMeTheBio</string>
+    <string name="mozart_name">Mozart</string>
+    <string name="bach_name">Bach</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UiViewsXml</string>
+    <string name="my_button_title">Hi Im a Button</string>
+    <string name="hello_world">Hello World</string>
+</resources>
