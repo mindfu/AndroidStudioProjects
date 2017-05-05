@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ced"
+    tools:context="mindfu.javaprojects.com.mywishlist2.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="My Wishlist"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="60sp"
+        android:textColor="#64a224"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:hint="Enter title"
+        android:id="@+id/titleEditText"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:gravity="start"
+        android:layout_marginTop="60dp"
+        android:hint="Enter wish"
+        android:id="@+id/wishEditText"
+        android:layout_below="@+id/titleEditText"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:layout_width="320dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:background="#85df2a"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/wishEditText"
+        android:layout_centerHorizontal="true"
+        android:textColor="#336699"
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

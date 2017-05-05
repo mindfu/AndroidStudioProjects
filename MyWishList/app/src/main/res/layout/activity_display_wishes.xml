@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ced"
+    tools:context="mindfu.javaprojects.com.mywishlist.DisplayWishesActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:divider="#167e27"
+        android:dividerHeight="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</RelativeLayout>

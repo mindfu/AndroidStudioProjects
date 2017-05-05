@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9c433a"
+    tools:context="mindfu.javaprojects.com.sharedprefs.MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:text="What Is Your Name?"
+        android:textColor="#e7b19f"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView"
+        android:id="@+id/nameEditText"
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="#de8678"
+        android:text="Save"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/nameEditText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#f7c9c5"
+        android:text="Your Name is: "
+        android:textSize="20sp"
+        android:id="@+id/showMyNameTextView"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
